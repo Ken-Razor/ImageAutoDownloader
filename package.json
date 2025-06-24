@@ -1,0 +1,23 @@
+{
+  "name": "cdn-image-scraper",
+  "version": "1.0.0",
+  "bin": "download-from-cdn.js",
+  "scripts": {
+    "start": "node download-from-cdn.js"
+  },
+  "dependencies": {
+    "chrome-paths": "^1.0.1",
+    "inquirer": "^12.6.3",
+    "puppeteer-core": "^24.10.0"
+  },
+  "pkg": {
+    "scripts": "download-from-cdn.js",
+    "assets": [],
+    "targets": ["node18-win-x64"],
+    "outputPath": "dist",
+    "excludes": [
+      "node_modules/typed-query-selector/**",
+      "**/*.d.ts"
+    ]
+  }
+}

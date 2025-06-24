@@ -1,0 +1,2 @@
+DETAILED_LOGGING=true
+CUSTOM_BROWSER_PATH=C:\\Program Files (x86)\\zhanfubrowser\\zhanfubrowser.exe
